@@ -36,7 +36,7 @@ public class SubmitOrderTest extends BaseTest {
 
 	@Test(dataProvider = "getData", groups = { "Purchase" })
 	public void submitOrder(HashMap<String, String> input) throws InterruptedException, IOException {
-
+//text to test
 		// JavascriptExecutor js = (JavascriptExecutor) driver;
 		// WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
